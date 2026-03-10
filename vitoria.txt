@@ -1,0 +1,45 @@
+{
+  "nome": "Vitoria Kathlyn Dias Ferreira",
+  "foto": "fotos/FotoVitoria.jpg",
+  "nascimento": "09/04/2006",
+  "email": "vitoria@email.com",
+  "telefone": "(11) 99999-0000",
+  "linkedin": "https://linkedin.com/in/vitoria-kathlyn",
+  "github": "https://github.com/vickkathlyn",
+  "conhecimentos": ["Suporte Técnico", "JIRA", "SAP", "Arduino", "C", "HTML", "JavaScript", "Python"],
+  "experiencias": [
+    {
+      "cargo": "Estagiária",
+      "empresa": "Caloi",
+      "descricao": "Abertura e resolução de chamados via Jira. Suporte a usuários em sistemas e infraestrutura. Apoio a processos integrados ao SAP.",
+      "inicio": "Nov/2024",
+      "termino": "Momento"
+    },
+    {
+      "cargo": "Aprendiz",
+      "empresa": "Caloi",
+      "descricao": "Apoio em requisição de compra e nota fiscal. Utilização do SAP para acompanhamento de fluxos operacionais.",
+      "inicio": "Abr/2024",
+      "termino": "Out/2024"
+    },
+    {
+      "cargo": "Aprendiz",
+      "empresa": "Hidrelplan",
+      "descricao": "Desenvolvimento de lógica de programação. Atuação com Arduino, CIP e pneumática.",
+      "inicio": "Jan/2023",
+      "termino": "Mar/2024"
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Bacharelado em Ciência da Computação",
+      "instituicao": "Senac São Paulo",
+      "termino": "Em andamento (Dez/2027)"
+    },
+    {
+      "curso": "Inglês como Segundo Idioma",
+      "instituicao": "Graded - The American School of São Paulo",
+      "termino": "Em andamento (Ago/2026)"
+    }
+  ]
+}

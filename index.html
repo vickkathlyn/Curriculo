@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <nav>
+            <button onclick="carregarDados('vitoria')">Vitoria</button>
+    </nav>
+
+    <header>     
+        <h1 id="nome"></h1>
+    </header>
+
+    <main>
+        <aside>
+            <section id="sec-foto">
+                <img id="foto" src="" alt="Foto">
+            </section>
+
+            <section id="sec-dados">
+                <p id="nascimento"></p>
+                <p id="email"></p>
+                <p id="telefone"></p>
+                <p><a id="linkedin" href="" target="_blank">LinkedIn</a></p>
+                <p><a id="github" href="" target="_blank">GitHub</a></p>
+            </section>
+
+            <section id="sec-conhecimentos">
+                <h2>Conhecimentos</h2>
+                <ul id="conhecimentos"></ul>
+            </section>
+        </aside>
+
+        <div id="coluna-direita">
+            <section id="sec-experiencias">
+                <h2>Experiências Profissionais</h2>
+                <div id="experiencias"></div>
+            </section>
+
+            <section id="sec-formacao">
+                <h2>Formação Acadêmica</h2>
+                <div id="formacao"></div>
+            </section>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
