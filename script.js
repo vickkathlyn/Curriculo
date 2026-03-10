@@ -1,11 +1,11 @@
 function carregarDados(pessoa) {
-    // busca o arquivo .txt da pessoa que clicou
+    
     fetch(pessoa + '.txt')
         .then(function(response) {
-            return response.json(); // transforma o texto em objeto JS
+            return response.json(); 
         })
         .then(function(dados) {
-            preencherPagina(dados); // manda os dados para a função abaixo
+            preencherPagina(dados); 
         })
         .catch(function(erro) {
             console.error('Erro ao carregar:', erro);
@@ -13,7 +13,7 @@ function carregarDados(pessoa) {
 }
 
 function preencherPagina(dados) {
-    // pega cada id do HTML e coloca o valor do .txt
+   
 
     document.getElementById('nome').textContent = dados.nome;
     document.getElementById('foto').src = dados.foto;
@@ -23,7 +23,7 @@ function preencherPagina(dados) {
     document.getElementById('linkedin').href = dados.linkedin;
     document.getElementById('github').href = dados.github;
 
-    // conhecimentos: cria um <li> para cada item da lista
+   
     var listaConhec = document.getElementById('conhecimentos');
     listaConhec.innerHTML = '';
     dados.conhecimentos.forEach(function(item) {
@@ -32,7 +32,7 @@ function preencherPagina(dados) {
         listaConhec.appendChild(li);
     });
 
-    // experiencias: cria um bloco para cada experiencia
+   
     var divExp = document.getElementById('experiencias');
     divExp.innerHTML = '';
     dados.experiencias.forEach(function(exp) {
@@ -43,7 +43,7 @@ function preencherPagina(dados) {
             '</div>';
     });
 
-    // formacao: cria um bloco para cada formacao
+    
     var divForm = document.getElementById('formacao');
     divForm.innerHTML = '';
     dados.formacao.forEach(function(form) {
@@ -54,6 +54,6 @@ function preencherPagina(dados) {
             '</div>';
     });
 
-    // mostra o conteudo (fica oculto ate carregar)
+    
     document.getElementById('sec-foto').style.display = 'block';
 }

@@ -9,12 +9,12 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #e7e1e1;
-    max-width: 900px;    /* centraliza a página */
-    margin: 0 auto;      /* centraliza a página */
+    max-width: 900px;    /* esse e o de baixo é pra centraluizar a tela*/
+    margin: 0 auto;      
     padding: 20px;
 }
 
-/* ---- HEADER ---- */
+
 header {
     background-color: #386dbb;
     padding: 20px;
@@ -48,26 +48,26 @@ button:hover {
 
 /* ---- DUAS COLUNAS ---- */
 main {
-    display: flex;        /* coloca aside e div lado a lado */
+    display: flex;        /* deix aos dois lado a lado*/
     gap: 20px;
     align-items: flex-start;
 }
 
 aside {
-    width: 30%;           /* coluna esquerda menor */
+    width: 30%;          
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
 #coluna-direita {
-    width: 70%;           /* coluna direita maior */
+    width: 70%;         
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-/* ---- SECTIONS ---- */
+
 section {
     background-color: #386dbb;
     padding: 16px;
@@ -83,7 +83,7 @@ section h2 {
     padding-bottom: 6px;
 }
 
-/* ---- FOTO ---- */
+
 #foto {
     width: 100%;
     aspect-ratio: 1;
@@ -92,7 +92,7 @@ section h2 {
     border-radius: 20px;
 }
 
-/* ---- DADOS PESSOAIS ---- */
+
 #sec-dados p {
     margin-bottom: 8px;
     font-size: 14px;
@@ -102,7 +102,7 @@ section h2 {
     color: #1e0cc5;
 }
 
-/* ---- CONHECIMENTOS ---- */
+
 #conhecimentos {
     list-style: none;
     display: flex;
@@ -117,7 +117,6 @@ section h2 {
     font-size: 13px;
 }
 
-/* ---- ITENS DE EXPERIENCIA E FORMACAO ---- */
 .item {
     margin-bottom: 16px;
     padding-bottom: 16px;
@@ -131,10 +130,10 @@ section h2 {
 }
 
 
-/* ---- RESPONSIVO ---- */
+
 @media (max-width: 600px) {
     main {
-        flex-direction: column;  /* empilha no celular */
+        flex-direction: column;  /* pra deixar emppilhado no cell*/
     }
 
     aside, #coluna-direita {
